@@ -35,12 +35,26 @@
 		url('../public/fonts/NotoSansDisplay-Bold.woff2') format('woff2');
 }
 
+:root {
+	--font-family: 'Noto Sans', sans-serif;
+
+	/* Colors */
+	--black: #3B434E;
+	--white: white;
+	--primary: #7653FC;
+	--red: #FC836D;
+	--green: #1DC37E;
+	--light-green: #C8F8E4;
+	--background: #F5F6F8;
+}
+
 html,
 body {
 	margin: 0;
 	padding: 0;
-
-	font-family: 'Noto Sans', sans-serif;
+	color: var(--black);
+	background: var(--background);
+	font-family: var(--font-family);
 	font-weight: 400;
 }
 
