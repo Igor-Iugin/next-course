@@ -20,7 +20,8 @@
 	background-color: var(--primary);
 }
 
-.primary:hover {
+.primary:hover,
+.primary:focus {
 	background-color: var(--primary-hover);
 }
 
@@ -31,6 +32,7 @@
 	background-color: unset;
 }
 
-.ghost:hover {
+.ghost:hover,
+.ghost:focus {
 	border: 1px solid var(--gray-hover);	
 }
