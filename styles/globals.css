@@ -1,20 +1,47 @@
+@font-face {
+	font-family: 'Noto Sans';
+	font-weight: 300;
+	font-display: swap;
+	src:
+		local('Noto Sans Light'),
+		url('../public/fonts/NotoSansDisplay-Light.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Noto Sans';
+	font-weight: 400;
+	font-display: swap;
+	src:
+		local('Noto Sans Regular'),
+		url('../public/fonts/NotoSansDisplay-Regular.woff2') format('woff2');
+}
+
+
+@font-face {
+	font-family: 'Noto Sans';
+	font-weight: 500;
+	font-display: swap;
+	src:
+		local('Noto Sans Medium'),
+		url('../public/fonts/NotoSansDisplay-Medium.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Noto Sans';
+	font-weight: 700;
+	font-display: swap;
+	src:
+		local('Noto Sans Bold'),
+		url('../public/fonts/NotoSansDisplay-Bold.woff2') format('woff2');
+}
+
 html,
 body {
 	margin: 0;
 	padding: 0;
 
-	font-family:
-		-apple-system,
-		BlinkMacSystemFont,
-		'Segoe UI',
-		Roboto,
-		Oxygen,
-		Ubuntu,
-		Cantarell,
-		'Fira Sans',
-		'Droid Sans',
-		'Helvetica Neue',
-		sans-serif;
+	font-family: 'Noto Sans', sans-serif;
+	font-weight: 400;
 }
 
 a {
