@@ -36,3 +36,10 @@
 .ghost:focus {
 	border: 1px solid var(--gray-hover);	
 }
+
+/* hasArrow */
+.hasArrow {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
