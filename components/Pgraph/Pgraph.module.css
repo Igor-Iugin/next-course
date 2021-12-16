@@ -1,0 +1,19 @@
+.PGraph {
+	color: #3B434E;
+	line-height: 1.5;
+}
+
+/* Small */
+.small {
+	font-size: 14px;
+}
+
+/* Normal */
+.normal {
+	font-size: 16px;
+}
+
+/* Big */
+.big {
+	font-size: 18px;
+}
