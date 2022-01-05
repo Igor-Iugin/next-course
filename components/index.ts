@@ -1,3 +1,3 @@
 export * from './Htag/Htag'
 export * from './Button/Button'
-export * from './Pgraph/PGraph'
+export * from './Pgraph/Pgraph'

@@ -1,4 +1,4 @@
-import { PgraphProps } from './PGraph-props';
+import { PgraphProps } from './Pgraph-props';
 
 import cn from 'classnames'
 
