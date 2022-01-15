@@ -5,7 +5,7 @@ import { Tag } from '../components'
 const Home: NextPage = () => {
   return (
     <>
-      <Tag>10</Tag>
+      <Tag type='skill'>10ssssssssssssssssss</Tag>
     </>
   )
 }

@@ -1,9 +1,48 @@
-.tag {
-	display: inline-block;
+/* Default */
+.default {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
 
 	height: 22px;
+	padding: 0 10px;
 
-	border-radius: 50%;
+	border-radius: 20px;
 
-	border: 1px solid #000;
+	font-size: 12px;
+	line-height: 1;
+}
+
+/* Tag */
+.tag {
+	border: 1px solid #EBEBEB;
+	font-weight: 500;
+}
+
+/* Price */
+.price {
+	color: #1DC37E;
+	background-color: #C8F8E4;
+	font-weight: 700;
+}
+
+/* Results */
+.results {
+	background-color: #B3C0D9;
+	color: white;
+	font-weight: 600;
+}
+
+/* Vacancy */
+.vacancy {
+	background-color: #DE0000;
+	color: white;
+	font-weight: 600;
+}
+
+/* Skill */
+.skill {
+	border: 1px solid #7653FC;
+	color: #7653FC;
+	font-weight: 500;
 }
