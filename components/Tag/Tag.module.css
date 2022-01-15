@@ -1,11 +1,8 @@
 /* Default */
 .default {
-	display: inline-flex;
-	align-items: center;
-	justify-content: center;
+	display: inline-block;
 
-	height: 22px;
-	padding: 0 10px;
+	padding: .5em 1em;
 
 	border-radius: 20px;
 
@@ -15,34 +12,37 @@
 
 /* Tag */
 .tag {
-	border: 1px solid #EBEBEB;
+	border: 1px solid var(--gray);
 	font-weight: 500;
 }
 
 /* Price */
 .price {
 	color: #1DC37E;
-	background-color: #C8F8E4;
+	background-color: var(--light-green);
 	font-weight: 700;
 }
 
 /* Results */
 .results {
-	background-color: #B3C0D9;
-	color: white;
+	background-color: var(--light-gray);
+	color: var(--white);
 	font-weight: 600;
+	font-size: 14px;
+	padding: 5px 10px;
 }
 
 /* Vacancy */
 .vacancy {
 	background-color: #DE0000;
-	color: white;
+	color: var(--white);
 	font-weight: 600;
+	font-size: 14px;
 }
 
 /* Skill */
 .skill {
-	border: 1px solid #7653FC;
-	color: #7653FC;
+	border: 1px solid var(--primary);
+	color: var(--primary);
 	font-weight: 500;
 }
