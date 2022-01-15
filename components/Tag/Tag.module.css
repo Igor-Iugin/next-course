@@ -11,20 +11,20 @@
 }
 
 /* Tag */
-.tag {
+.ghost {
 	border: 1px solid var(--gray);
 	font-weight: 500;
 }
 
 /* Price */
-.price {
+.green {
 	color: #1DC37E;
 	background-color: var(--light-green);
 	font-weight: 700;
 }
 
 /* Results */
-.results {
+.gray {
 	background-color: var(--light-gray);
 	color: var(--white);
 	font-weight: 600;
@@ -33,7 +33,7 @@
 }
 
 /* Vacancy */
-.vacancy {
+.red {
 	background-color: #DE0000;
 	color: var(--white);
 	font-weight: 600;
@@ -41,7 +41,7 @@
 }
 
 /* Skill */
-.skill {
+.primary {
 	border: 1px solid var(--primary);
 	color: var(--primary);
 	font-weight: 500;

@@ -5,16 +5,20 @@ import cn from 'classnames'
 import styles from './Tag.module.css'
 
 
-export function Tag({ type = 'tag', children, className }:TagProps) {
+export function Tag({ type = 'ghost', href, children, className }:TagProps) {
 	return (
 		<div className={cn(styles.default, className, {
-			[styles.price]: type === 'price',
-			[styles.tag]: type === 'tag',
-			[styles.results]: type === 'results',
-			[styles.vacancy]: type === 'vacancy',
-			[styles.skill]: type === 'skill'
+			[styles.ghost]: type === 'ghost',
+			[styles.green]: type === 'green',
+			[styles.gray]: type === 'gray',
+			[styles.red]: type === 'red',
+			[styles.primary]: type === 'primary'
 		})}>
-			{children}
+			{
+				href 
+				? <a href={href} target='_blank' rel='noopener'>{children}</a>
+				: <>{children}</>
+			}
 		</div>
 	)
 }
