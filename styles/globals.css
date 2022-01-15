@@ -16,7 +16,6 @@
 		url('../public/fonts/NotoSansDisplay-Regular.woff2') format('woff2');
 }
 
-
 @font-face {
 	font-family: 'Noto Sans';
 	font-weight: 500;
@@ -55,8 +54,10 @@ html,
 body {
 	margin: 0;
 	padding: 0;
+
 	color: var(--black);
 	background: var(--background);
+
 	font-family: var(--font-family);
 	font-weight: 400;
 }

@@ -1,17 +1,18 @@
 .button {
-	cursor: pointer;
-
 	display: flex;
 	align-items: center;
 	justify-content: center;
 
+	padding: 0.7em;
+
+	cursor: pointer;
+
+	transition: all 0.2s ease;
+
 	border: none;
 	border-radius: 5px;
-	padding: .7em;
 
 	font-size: 14px;
-
-	transition: all .2s ease;
 }
 
 /* Primary */
@@ -34,7 +35,7 @@
 
 .ghost:hover,
 .ghost:focus {
-	border: 1px solid var(--gray-hover);	
+	border: 1px solid var(--gray-hover);
 }
 
 /* hasArrow */
