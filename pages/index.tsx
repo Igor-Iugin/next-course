@@ -1,11 +1,11 @@
 import type { NextPage } from 'next'
-import { Tag } from '../components'
+import { Rating } from '../components'
 
 
 const Home: NextPage = () => {
   return (
     <>
-      <Tag type='skill'>10ssssssssssssssssss</Tag>
+      <Rating rating={4} />
     </>
   )
 }
