@@ -1,8 +1,8 @@
-import { Fragment, KeyboardEvent, useEffect, useState } from 'react';
-import { RatingProps } from './Rating-props';
-import StarIcon from './star.svg'
-
+import { Fragment, KeyboardEvent, useEffect, useState } from 'react'
+import { RatingProps } from './Rating-props'
 import cn from 'classnames'
+
+import StarIcon from './star.svg'
 
 import styles from './Rating.module.css'
 
