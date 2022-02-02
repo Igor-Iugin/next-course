@@ -1,6 +1,5 @@
 import { GetStaticProps } from 'next'
-import { useState } from 'react'
-import axios, { AxiosResponse } from 'axios'
+import axios from 'axios'
 
 import { withLayout } from '../layout/Layout'
 

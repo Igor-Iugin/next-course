@@ -35,10 +35,11 @@ export function Rating({isEditable, rating, setRating, children, className, ...p
 		setRating(rate)
 	}
 
-	const constractRating = (currentRating: number) => {
+	function constractRating(currentRating: number) {
 		const updatedArray = ratingArray.map((r: JSX.Element, index: number) => {
 			return (
 				<StarIcon 
+					key={`sSs${index}`}
 					className={cn(styles.star, {
 						[styles.filled]: index < currentRating,
 						[styles.editable]: isEditable

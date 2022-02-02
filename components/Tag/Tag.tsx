@@ -16,7 +16,7 @@ export function Tag({ type = 'ghost', href, children, className }:TagProps) {
 		})}>
 			{
 				href 
-				? <a href={href} target='_blank' rel='noopener'>{children}</a>
+				? <a href={href} target='_blank' rel='noreferrer'>{children}</a>
 				: <>{children}</>
 			}
 		</div>
