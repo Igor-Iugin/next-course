@@ -4,7 +4,7 @@ import axios, { AxiosResponse } from 'axios'
 
 import { withLayout } from '../layout/Layout'
 
-import { MenuItem } from '../interfaces/menuInterface'
+import { MenuItem } from '../interfaces/menu.interface'
 
 
 function Home({ menu, firstCategory }: HomeProps):JSX.Element {
