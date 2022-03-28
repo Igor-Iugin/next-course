@@ -8,9 +8,7 @@ import { MenuItem } from '../interfaces/menu.interface'
 
 function Home({ menu, firstCategory }: HomeProps):JSX.Element {
   return (
-    <ul>
-      {menu.map(elem => <li key={elem._id.secondCategory}>{elem._id.secondCategory}</li>)}
-    </ul>
+    <></>
   )
 }
 
