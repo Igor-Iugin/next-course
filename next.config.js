@@ -10,16 +10,20 @@ module.exports = {
       test: /\.svg$/,
       issuer: /\.[jt]sx?$/,
       options: {
-				prettier: false,
-        svgo: true,
-        svgoConfig: {
-          plugins: [{
-            name: 'preset-default',
-            params: {overrides: { removeViewBox: false }}
-          }]
-        },
-				titleProp: true,
-			},
+			prettier: false,
+	      svgo: true,
+	      svgoConfig: {
+				plugins: [{
+					name: 'preset-default',
+					params: { overrides: { removeViewBox: false } }
+				}]
+	      },
+	      titleProp: true,
+	      replaceAttrValues: {
+				['#7653FC']: 'currentColor',
+		      ['#787D85']: 'currentColor'
+			}
+      }
     })
 
     return config
